@@ -116,7 +116,7 @@ function sendUserName() {
 }
 
 window.addEventListener('load', function promtvoice() {
-  var pValue = prompt('type favorite name')
+  var pValue = prompt('type favorite name  only English')
   send_name.innerHTML = pValue
   send_names.innerHTML = pValue
 
